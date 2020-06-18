@@ -1,6 +1,8 @@
 # image-server
 Experimental API for hosting images.
 
+I used this in Kibana to show screenshots of applications.
+
 ## Requirements
 Running on python 3.7.0
 Using FastAPI and Uvicorn
@@ -10,6 +12,11 @@ Using FastAPI and Uvicorn
 Install FastAPI and it's dependencies, like Uvicorn
 ```
 pip install fastapi[all]
+```
+
+Run the project dependencies
+```
+pip install -r requirements.txt
 ```
 
 Run the app using uvicorn
